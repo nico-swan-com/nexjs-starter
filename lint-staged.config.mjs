@@ -1,7 +1,7 @@
 /* eslint-env node */
-const path = require('path');
+import path from 'path';
 const formatCommand = 'prettier . --check';
 
-module.exports = {
+export default {
   '*': formatCommand
 };
